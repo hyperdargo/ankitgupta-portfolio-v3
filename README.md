@@ -71,3 +71,6 @@ This project is licensed under the [MIT License](LICENSE).
 For inquiries or feedback, please reach out at [Gmail](mailto:ankitstudentid@gmail.com) and other on [Website](https://ankitgupta.com.np/).
 
 Thank you for exploring my portfolio source code!
+
+#
+---
