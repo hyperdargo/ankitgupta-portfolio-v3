@@ -72,5 +72,5 @@ For inquiries or feedback, please reach out at [Gmail](mailto:ankitstudentid@gma
 
 Thank you for exploring my portfolio source code!
 
-#
 ---
+#
