@@ -1,5 +1,4 @@
 ---
-layout: default
 # My Portfolio (Version 3)
 
 Welcome to the source code repository for my personal portfolio website. This version (v3) highlights my web development skills, showcasing my projects and accomplishments with a modern and responsive design.
