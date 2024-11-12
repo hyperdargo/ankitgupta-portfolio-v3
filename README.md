@@ -68,6 +68,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Contact
 
-For inquiries or feedback, please reach out at [Gmail](mailto:ankitstudentid@gmail.com) or connect with me on [Website](https://ankitgupta.com.np/).
+For inquiries or feedback, please reach out at [Gmail](mailto:ankitstudentid@gmail.com) and other on [Website](https://ankitgupta.com.np/).
 
 Thank you for exploring my portfolio source code!
