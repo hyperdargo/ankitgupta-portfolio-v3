@@ -38,10 +38,27 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<style>
+  .discord-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 350px;
+    height: 500px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  @media (max-width: 768px) {
+    .discord-widget {
+      display: none; /* Hide on mobile for better UX */
+    }
+  }
+</style>
 
 	</head>
 	<body>
-	<iframe src="https://discord.com/widget?id=1052838274940534784&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 		
 	<div class="fh5co-loader"></div>
 	
@@ -458,6 +475,13 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+		<iframe class="discord-widget"
+  src="https://discord.com/widget?id=1052838274940534784&theme=dark"
+  allowtransparency="true"
+  frameborder="0"
+  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+</iframe>
 
 	</body>
 </html>
