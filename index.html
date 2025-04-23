@@ -476,12 +476,30 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-		<iframe class="discord-widget"
-  src="https://discord.com/widget?id=1052838274940534784&theme=dark"
-  allowtransparency="true"
-  frameborder="0"
-  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-</iframe>
+		<!-- Discord Widget Wrapper -->
+<div id="discord-widget" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+  <div id="discord-header" style="background: #2c2f33; color: white; padding: 5px 10px; border-radius: 8px 8px 0 0; font-family: 'Space Mono', monospace; font-size: 14px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+    <span>Discord</span>
+    <span>
+      <button onclick="toggleWidget()" style="background: none; border: none; color: white; font-size: 14px; cursor: pointer;">_</button>
+      <button onclick="closeWidget()" style="background: none; border: none; color: white; font-size: 14px; cursor: pointer;">×</button>
+    </span>
+  </div>
+  <iframe id="discord-iframe" src="https://discord.com/widget?id=1052838274940534784&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" style="border-radius: 0 0 8px 8px;"></iframe>
+</div>
+
+<script>
+  function toggleWidget() {
+    const iframe = document.getElementById('discord-iframe');
+    iframe.style.display = (iframe.style.display === 'none') ? 'block' : 'none';
+  }
+
+  function closeWidget() {
+    const widget = document.getElementById('discord-widget');
+    widget.style.display = 'none';
+  }
+</script>
+
 
 	</body>
 </html>
