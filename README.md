@@ -6,7 +6,7 @@ Welcome to the third version of [Ankit Gupta's](https://ankitgupta.com.np/) pers
 
 ## 🌐 Live Site
 
-👉 [Visit the Portfolio](https://ankitgupta.com.np/)
+👉 [Visit the Portfolio](https://old.ankitgupta.com.np/)
 
 ## 📂 Repository Structure
 
@@ -50,7 +50,7 @@ Contributions are welcome! If you have suggestions for improvements or spot any 
 
 ## 🧠 Credits
 
-Crafted by [Ankit Gupta](https://old.ankitgupta.com.np/).  
+Crafted by [Ankit Gupta](https://ankitgupta.com.np/).  
 Feel free to reach out or connect on [LinkedIn](https://linkedin.com/in/ankitguptadargo).
 
 ---
