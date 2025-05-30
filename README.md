@@ -6,7 +6,7 @@ Welcome to the third version of [Ankit Gupta's](https://ankitgupta.com.np/) pers
 
 ## 🌐 Live Site
 
-👉 [Visit the Portfolio](https://old.ankitgupta.com.np/)
+👉 [Visit the Portfolio](https://hyperdargo.github.io/ankitgupta-portfolio-v3/)
 
 ## 📂 Repository Structure
 
